@@ -1,0 +1,354 @@
+@charset "utf-8";
+/*******BLOG CSS*****/
+*{margin:0; padding:0}
+#blog h4, #blog h5, 
+#blog h6{font-size:24px;margin:15px;text-align:center;padding-bottom:15px;}
+#blog article #telefonos-inicio p{font-size:24px;margin:15px;
+text-align:center;padding-bottom:15px;}
+#blog .contenedor #telefonos-inicio{display:block;}
+.tamaño{font-size:20px;}
+#blog .contenedor p{margin:20px 20px;}
+#blog .contenedor{border-radius:5px;background:rgba(220,220,220,0.8);	
+display: flex;width:100%;flex-wrap: wrap;justify-content: center;}
+#blog .contenedor img, h4{margin-top:20px;}
+#blog .contenedor #img-inicio img{width:98%;}
+#blog2 .contenedor{/*presupuesto_online.html*/
+width:94%;display:block;background:rgba(220,220,220,0.8);/*gainsboro*/
+justify-content:center;flex-wrap:wrap;}
+.form-control-inicio{text-align:left;}
+.form-control-inicio-txa{text-align:left;}
+#blog .contenedor #info #alineate,#blog .contenedor #info #alineate1,
+#blog .contenedor #info #alineate2,#blog .contenedor #info #alineate3,
+#blog .contenedor #info #alineate4,#blog .contenedor #info #alineate5{
+text-align:center;width:100%;font-size:1px;text-shadow:none;}
+
+/****CONTENEDOR-DESARROLLO/SOFTWARE (DS)*****/
+.color-change{color:#ce5505;font-weight:bold; font-size:18px;}
+.color-change1{color:#090; font-weight:bold; font-size:18px;}
+.color-change2{font-weight:bold;text-align:left;}
+.color-black{color:rgba(54,54,54,0.9);}
+#blog .contenedor-ds{width:96%;margin:auto;height:auto;margin-left:2%;	
+font-size:17px;}
+#blog .contenedor-ds article{margin-top:20px;margin-right:5px;
+border-radius:5px;width:100%;line-height:20px;height:auto;}
+#blog .contenedor-ds aside{display:block;border-radius:5px;margin-top:20px;
+width:100%;height:auto;}
+#blog #contenido-ds1, #contenido-ds2{width: 100%;height: auto;
+background: rgba(220,220,220,0.8);margin-top:20px;border-radius: 5px;
+padding:20px;	}
+#blog #contenido-ds1 h7,#blog #contenido-ds2 h7{font-size:20px;
+font-weight:bold;color:rgba(54,54,54,0.9);text-indent:0;}
+#blog #contenido-ds1 p, #blog #contenido-ds2 p{color:rgba(54,54,54,0.9);	
+margin-top:10px;margin-left:5px;text-align:left;}
+#contenido-ds1 li, #contenido-ds2 li{margin-left:15px;color:#ce5505;}
+#contenido-ds3{background: rgba(220,220,220,0.8);border-radius:5px;
+margin-top:40px;}
+#cds3-title h4{background:#ce5505;width:98%;margin-left:1%;
+font-size:20px;font-weight:bold;height:50px;border-radius:5px;
+font-weight:bold;padding:15px;text-align:center;color:rgba(54,54,54,0.9);}
+.cds3-contacto #boton2{text-align:center;border-radius:5px;font-weight:bold;	
+width:98%;height:50px;margin-left:1%;margin-bottom:15px;font-size:15px;
+border-style:none;background:#ce5505;}
+.cds3-contacto #boton2:hover{background: rgba(54,54,54, 0.9);
+color: #ce5505;font-size:18px;}
+.form-control-ds3{background-color: rgba(54,54,54, 0.9);
+width:98%;margin-left:1%;height:50px;margin-bottom:20px;
+color:#FFF;border-color: rgba(54,54,54, 0.9);height: 50px;
+border-radius: 5px;border-style:solid;box-shadow: none;padding-left:10px;}
+.cds3-contacto #mensaje{height:150px;}
+
+/*******CONTENIDO-DS4(FIRST CONTENT TO ASIDE)*/
+#blog #contenido-ds4,#blog #contenido-ds5{width: 100%;display:block;
+background:rgba(220,220,220,0.8);/*gainsboro*/height: auto;margin-top:20px;
+border-radius: 5px;padding:20px;}
+#contenido-ds4 #contenido-left,#contenido-ds5 #contenido-right{margin:auto;
+width:100%;height:auto;}
+#contenido-ds4 #contenido-right img,#contenido-ds5 #contenido-left img{		
+margin:10px auto;border-radius:5px;width:100%;height:auto;}	
+#contenido-ds4 #contenido-left h7,#contenido-ds5 #contenido-right h7{
+color:rgba(54,54,54,0.9);font-weight:bold;font-size:18px;text-align:center;
+margin:auto;font-family:Tahoma, Geneva, sans-serif;}
+#contenido-ds4 #contenido-left p,#contenido-ds5 #contenido-right p{
+margin: 15px auto;font-size:18px;}
+/****FIN CONTENEDOR DS*/
+
+/********CONTENEDOR-DIS-WEB (DW)********/
+#blog .contenedor-dw{width:96%;margin:auto;height:auto;
+margin-left:2%;font-size:17px;}
+#blog .contenedor-dw article{margin-top:20px;margin-right:5px;border-radius:5px;
+width:100%;line-height:20px;height:auto;}
+#blog .contenedor-dw aside{display:block;margin-top:20px;
+width:100%;height:auto;}
+#blog #contenido-dw1, #contenido-dw2{width: 100%;
+background:rgba(220,220,220, 0.8);height: auto;margin-top:70px;
+border-radius: 5px;padding:20px;	}
+#blog #contenido-dw1 h7{font-size:22px;font-weight:bold;	
+color:rgba(54,54,54,0.9);text-indent:0;}
+#blog #contenido-dw1 p{color:rgba(54,54,54,0.9);margin-top:10px;
+margin-left:5px;text-align:left;}
+#contenido-dw1 li{margin-left:12px;color:#ce5505;}
+#contenido-dw3{background: rgba(220,220,220,0.8);border-radius:5px;
+margin-top:20px;}
+#cdw3-title h4{background:#ce5505;width:98%;margin-left:1%;
+font-size:20px;font-weight:bold;height:50px;border-radius:5px;
+font-weight:bold;padding:15px;text-align:center;
+color:rgba(54,54,54,0.9);}
+.cdw3-contacto #boton2{text-align:center;border-radius:5px;
+font-weight:bold;width:98%;height:50px;margin-left:1%;
+margin-bottom:15px;font-size:15px;border-style:none;background:#ce5505;}
+.cdw3-contacto #boton2:hover{background: rgba(54,54,54, 0.9);
+color: #ce5505;font-size:18px;}
+.form-control-dw3{background-color:transparent;width:98%;
+margin-left:1%;height:50px;margin-bottom:20px;
+color:rgba(54,54,54, 0.9);border-color: rgba(54,54,54, 0.9);height: 50px;
+border-radius: 5px;border-style:solid;box-shadow: none;padding-left:10px;}
+.cdw3-contacto #mensaje{height:150px;}
+
+/*******CONTENIDO-DW4 Y DW5(FIRST CONTENT TO ASIDE)*/
+#blog #contenido-dw4,#blog #contenido-dw5{
+width: 100%;display:block;background:rgba(220,220,220,0.8);
+height: auto;margin-top:20px;border-radius: 5px;padding:20px;}
+#contenido-dw4 #contenido-left,#contenido-dw5 #contenido-right{
+margin:10px auto;width:100%;height:auto;text-align:left;}
+#contenido-dw4 #contenido-right,#contenido-dw5 #contenido-left{
+margin:auto;width:100%;height:auto;}
+#contenido-dw4 #contenido-right img,#contenido-dw5 #contenido-left img{
+margin:auto;border-radius:5px;width:100%;height:auto;}
+#contenido-dw4 #contenido-left h7,#contenido-dw5 #contenido-right h7{
+color:rgba(54,54,54,0.9);font-weight:bold;font-size:18px;text-align:center;	
+font-family:Tahoma, Geneva, sans-serif;}
+#contenido-dw4 #contenido-left p,#contenido-dw5 #contenido-right p{
+margin:15px auto;font-size:18px;}
+/***********FIN DW**************/
+
+/****************BLOG-SEO*******************/
+#blog-seo{display:block;width:98%;margin-left:1%;height:auto;}
+#blog-seo article{display:block;width:100%;	}
+#blog-seo .vent{background:rgba(220,220,220,0.8);border-radius:5px;
+padding:15px 10px;}
+#blog-seo .vent2{background:rgba(220,220,220,0.8);border-radius:5px;
+padding:15px 10px;}
+#blog-seo .vent2 li{color:#ce5505;margin-left:15px;}
+.vent img{display:none;border-radius:5px;width:40%;
+height:50%;margin:10px;float:right;}
+.vent2 img{display:none;border-radius:5px;width:40%;height:50%;
+margin-bottom:10px;margin-left:10px;margin-right:25px;
+margin-top:10px;float:left;}
+#blog-seo .vent li{color:#ce5505;margin-left:15px;}
+#blog-seo .vent p{padding-top: 15px;color:rgba(54,54,54,0.9);}
+#blog-seo .vent2 p{padding-top: 15px;}
+#blog-seo article h3{font-size:30px;}
+#blog-seo article p{font-size:16px;text-align:left;}
+#blog-seo aside{margin-top:20px;display:block;width:100%;}
+#blog-seo #contenido-ds1{width: 100%;height: auto;border-radius: 5px;
+padding:15px;padding-left:20px;padding-right:10px;
+background:rgba(220,220,220,0.8);}
+#blog-seo #contenido-ds1 h7{font-size:22px;font-weight:bold;	
+color:rgba(54,54,54,0.9);text-indent:0;}
+#blog-seo #contenido-ds1 p{color:rgba(54,54,54,0.9);
+font-size:16px;margin-top:8px;text-align:left;margin-left: 10px;}
+#blog-seo #contenido-ds1 li,#blog-seo #contenido-ds2 li{margin-left:10px;
+color:#ce5505;}
+#blog-seo #contenido-dw3{background:rgba(220,220,220,0.8);}
+
+/**************BLOG-PORTAL****************/
+#blog-portal{display:block;width:98%;margin-left:1%;height:auto;
+border-radius:5px;}
+#blog-portal article{display:block;width:100%;}
+#blog-portal aside h3{font-size:30px;padding:10px;
+text-align:left;margin-right:10px;}
+#blog-portal aside p{font-size:18px;text-align:left;margin-left:10px;
+margin-right:10px;padding-top:10px;padding-bottom:5px;}
+#blog-portal aside{display:block;width:100%;}
+#blog-portal #contenido-ds1{width: 100%;height: auto;border-radius: 5px;
+text-align:left;padding:15px 0;padding-right: 5px;
+background:rgba(220,220,220,0.8);}
+#blog-portal #contenido-dw3{background:rgba(220,220,220,0.8);}
+#blog-portal .port{background:rgba(220,220,220,0.8);
+border-radius:5px;margin-bottom:20px;}
+#blog-portal .port li{color:#ce5505;margin-left:30px;}
+#blog-portal #contenido-ds1 h7{font-size:20px;padding-top:15px;
+padding-left:15px;font-weight:bold;	color:rgba(54,54,54,0.9);text-indent:0;}
+#blog-portal #contenido-ds1 p{color:rgba(54,54,54,0.9);font-size:16px;
+margin-top:10px;margin-left:10px;text-align:left;}
+#blog-portal #contenido-ds1 li{margin:10px 0;margin-left:35px;	
+color:#ce5505;}
+
+/********CREACIÓN_PAG_WEB (CPW)********/
+#blog .contenedor-cpw{width:96%;margin:auto;height:auto;
+margin-left:2%;font-size:17px;}
+#blog .contenedor-cpw article{margin-top:20px;margin-right:5px;
+border-radius:5px;width:100%;line-height:20px;height:auto;}
+#blog .contenedor-cpw aside{display:block;margin-top:20px;width:100%;
+height:auto;}
+#blog #contenido-cpw1,#blog #contenido-cpw2{	
+width: 100%;background:rgba(220,220,220, 0.8);height: auto;
+margin-top:70px;border-radius: 5px;padding:20px;}
+#blog #contenido-cpw1 h7, #contenido-cpw2 h7{font-size:20px;
+font-weight:bold;color:rgba(54,54,54,0.9);text-indent:0;}
+#blog #contenido-cpw1 p, #contenido-cpw2 p{color:rgba(54,54,54,0.9);
+margin-top:10px;margin-left:5px;text-align:left;}
+#contenido-cpw1 li, #contenido-cpw2 li{margin-left:15px;color:#ce5505;}
+#contenido-cpw3{background: rgba(220,220,220,0.8);border-radius:5px;
+margin-top:20px;}
+#cpw3-title h4{background:#ce5505; width:98%;
+margin-left:1%; font-size:20px; font-weight:bold;
+height:50px; border-radius:5px; font-weight:bold;
+padding:15px; text-align:center; color:rgba(54,54,54,0.9);}
+.cpw3-contacto #boton2{text-align:center;border-radius:5px;
+font-weight:bold;width:98%;height:50px;
+margin-left:1%;margin-bottom:15px;font-size:15px;
+border-style:none;background:#ce5505;}
+.cpw3-contacto #boton2:hover{background: rgba(54,54,54, 0.9);
+color: #ce5505;font-size:18px;}
+.form-control-cpw3{background-color:transparent;width:98%;margin-left:1%;
+height:50px;margin-bottom:20px;color:rgba(54,54,54, 0.9);
+border-color: rgba(54,54,54, 0.9);height: 50px;border-radius: 5px;
+border-style:solid;box-shadow: none;padding-left:10px;}
+.cpw3-contacto #mensaje{height:150px;}
+
+/*******CONTENIDO-CPW4 Y CPW5(FIRST CONTENT TO ASIDE)*/
+#blog #contenido-cpw4,#blog #contenido-cpw5{width: 100%;display:block;
+background:rgba(220,220,220,0.8);height: auto;
+margin-top:20px;border-radius: 5px;padding:20px;}
+#contenido-cpw4 #contenido-right,#contenido-cpw5 #contenido-left{
+margin:auto;width:100%;height:auto;}
+#contenido-cpw4 #contenido-right img,#contenido-cpw5 #contenido-left img{
+margin:10px auto;border-radius:5px;width:100%;height:auto;}
+#contenido-cpw4 #contenido-right p,#contenido-cpw5 #contenido-left p{
+text-align:justify;color:rgba(54,54,54,0.9);font-weight:bold;}
+#contenido-cpw4 #contenido-left h7,#contenido-cpw5 #contenido-right h7{
+color:rgba(54,54,54,0.9);font-weight:bold;font-size:18px;	
+text-align:left;margin:auto;font-family:Tahoma, Geneva, sans-serif;}
+#contenido-cpw4 #contenido-left li{margin-left: 15px;color:#ce5505;}
+#contenido-cpw5 #contenido-right li{margin-left: 15px;color:#ce5505;}
+#contenido-cpw4 #contenido-left p{margin: 15px auto;margin-left:10px;	
+font-size:16px;}
+#contenido-cpw5 #contenido-right p{margin: 15px 0;font-size:16px;}
+#contenido-cpw1-img img{width:100%;height:100%;margin:0 auto;margin-top:10px;}
+/***********FIN CPW**************/
+
+@media (min-width:486px){
+#contenido-ds4 #contenido-left,
+#contenido-ds5 #contenido-right{text-align:justify;}
+#contenido-ds4 #contenido-left h7,#contenido-ds5 #contenido-right h7{
+color:#fff;padding:5px 10px;border-radius:5px;
+background-color:rgba(54,54,54,0.9);}
+#blog #contenido-ds1 p,#blog #contenido-ds2 p{text-align:justify;}
+#contenido-dw4 #contenido-left,#contenido-dw5 #contenido-right{
+text-align:justify;}
+
+/*****CONTENIDO DW*/
+#contenido-dw4 #contenido-left,#contenido-dw5 #contenido-right{
+text-align:justify;}
+#contenido-dw4 #contenido-left h7,#contenido-dw5 #contenido-right h7{	
+font-size:24px;}
+#blog #contenido-dw1 p{text-align:justify;}
+
+/*****CONTENIDO CPW**********/
+#contenido-cpw4 #contenido-left,#contenido-cpw5 #contenido-right{	
+text-align:justify;}
+#contenido-cpw4 #contenido-left h7,#contenido-cpw5 #contenido-right h7{	
+font-size:24px;}
+#blog #contenido-cpw1 p{text-align:justify;}
+	
+/*************BLOG-SEO***************/
+#blog-seo article p{padding-left:10px;padding-right:10px;}
+.vent img{display:block;}
+.vent2 img{display:block;}
+#blog-seo article p{font-size:20px;text-align:justify;}	
+}
+
+@media (min-width:768px){
+#blog2 .contenedor{/*Presupuesto-online*/
+display:flex;background:rgba(220,220,220,0.8);}
+
+/**********DESARROLLO DE SOFTWARE******/
+#blog .contenedor-ds{width:auto;display:flex;}	
+#blog .contenedor-ds article{width:24%;}
+#blog .contenedor-ds aside{width:74%;}
+#blog #contenido-ds3{margin-top:50px;}
+#blog #contenido-ds4,#blog #contenido-ds5{display:block;}
+#contenido-ds4 #contenido-left,#contenido-ds5 #contenido-right{width:100%;
+height:auto;}
+#contenido-ds4 #contenido-right,#contenido-ds5 #contenido-left{
+width:100%;height:auto;}
+
+/**********DISEÑO WEB (DW)******/
+#blog .contenedor-dw{width:auto;display:flex;}	
+#blog .contenedor-dw article{width:24%;}
+#blog .contenedor-dw aside{width:74%;}
+#blog #contenido-dw4,#blog #contenido-dw5{display:block;}
+#contenido-dw4 #contenido-left,#contenido-dw5 #contenido-right{
+width:100%;height:auto;}
+#contenido-dw4 #contenido-right,#contenido-dw5 #contenido-left{
+width:100%;height:auto;}	
+
+/***************BLOG-SEO************/	
+#blog-seo{display:flex;width:90%;margin-left:5%;}
+#blog-seo article{display:block;width:75%;margin-top:20px;
+margin-left:20px;margin-right:5px;}
+#blog-seo article p{padding-left:10px;padding-right:10px;}
+#blog-seo aside{display:block;width:25%;}	
+.color-change2{text-align:justify;}
+#blog-seo #contenido-ds1 p{text-align:justify;}
+
+/*************BLOG-PORTAL**************/		
+#blog-portal{display:flex;width:94%;margin-left:3%;}
+#blog-portal article{display:block;width:25%;text-align:justify;
+margin-right:5px;}	
+#blog-portal aside{display:block;width:75%;}
+#blog-portal aside p{padding-right:10px;text-align:justify;}
+
+/**********CREACION_PAG_WEB(CPW)******/
+#blog .contenedor-cpw{width:auto;display:flex;}	
+#blog .contenedor-cpw article{width:74%;}
+#blog .contenedor-cpw aside{width:24%;}
+#blog #contenido-cpw4,#blog #contenido-cpw5{display:block;}
+#contenido-cpw4 #contenido-left,#contenido-cpw5 #contenido-right{
+width:100%;height:auto;}
+#contenido-cpw4 #contenido-right,#contenido-cpw5 #contenido-left{
+width:100%;height:auto;}	
+}
+@media (min-width:900px){	
+#blog #contenido-ds3{margin-top:10px;}	
+#blog #contenido-ds4,#blog #contenido-ds5{		
+display:flex;margin-bottom:30px;}
+#contenido-ds4 #contenido-left,#contenido-ds5 #contenido-right{
+width:59%;margin:auto;}
+#contenido-ds4 #contenido-right,#contenido-ds5 #contenido-left{
+width:39%;margin:auto;}
+#contenido-ds4 #contenido-left p{padding-right:15px;}
+#contenido-ds5 #contenido-right p{padding-left:15px;}
+#contenido-ds5 #contenido-right h7{margin-left:15px;}
+/*dw*/
+#blog #contenido-dw1,#blog #contenido-dw2{margin-top:10px;}	
+#blog #contenido-dw4,#blog #contenido-dw5{display:flex;}
+#contenido-dw4 #contenido-left,#contenido-dw5 #contenido-right{
+width:64%;margin:auto;}
+#contenido-dw4 #contenido-right,#contenido-dw5 #contenido-left{
+width:34%;margin:auto;}
+#contenido-dw4 #contenido-left h7{margin-left:-5px;}
+#contenido-dw4 #contenido-left p{padding-right:15px;}
+#contenido-dw5 #contenido-right p{padding-left:15px;}
+/*cpw*/
+#blog #contenido-cpw1,#blog #contenido-cpw2{margin-top:10px;}	
+#blog #contenido-cpw4,#blog #contenido-cpw5{display:flex;}
+#contenido-cpw4 #contenido-left,#contenido-cpw5 #contenido-right{
+width:64%;margin:auto;}
+#contenido-cpw4 #contenido-right,#contenido-cpw5 #contenido-left{
+width:34%;margin:auto;}
+#contenido-cpw5 #contenido-right h7{margin-left:10px;}
+#contenido-cpw5 #contenido-right li{margin-left:25px;}
+#contenido-cpw4 #contenido-left p{padding-right:15px;}
+}
+@media (min-width:1024px){
+#contenido-ds4 #contenido-left h7,#contenido-ds5 #contenido-right h7{
+font-size:26px;}
+/******dw********/
+#contenido-dw4 #contenido-left h7,#contenido-dw5 #contenido-right h7{
+font-size:26px;}
+/******cpw********/
+#contenido-cpw4 #contenido-left h7,#contenido-cpw5 #contenido-right h7{
+font-size:26px;}	
+}

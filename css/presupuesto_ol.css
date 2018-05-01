@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+/**PÁGINA PRESUPUESTO ONLINE.HTML***/
+#presupuesto_ol{font-family:'Slabo 27px', serif;
+background-image:url(../images/backg1.jpg);
+background-size:100vw 100vh;
+background-attachment:fixed;}
+#presupuesto .contenedor{margin-top:90px; display:block; text-align:left;}
+#presupuesto .contenedor h2{font-family:Verdana, Geneva, sans-serif;
+	font-size:28px;  color:#666;}
+#presupuesto .contenedor a{font-family:Verdana, Geneva, sans-serif; 
+	font-size:14px;  text-decoration:none;	color:#666;}
+#presupuesto .contenedor h14{
+	font-family::Verdana, Geneva, sans-serif; font-size:14px; color:#666;}
+#presupuesto .contenedor h3{font-family:Verdana, Geneva, sans-serif;
+	font-size:34px;  padding-top:40px;  font-weight:bold;  color:#000;}
+#presupuesto .contenedor p{font-size:24px;  padding-top:40px;
+	padding-bottom:40px;  text-align:left;}
+#blog2 .contenedor article{width:98%;  margin:auto;}
+.contenedor #four h5{font-size:14px;  text-align:left;  padding-bottom:2px;}
+.contenedor #check{font-size:14px;  text-align:left; padding-bottom:10px;
+	padding-left:5px;}
+.contenedor #check2{font-size:14px;  text-align:left;  padding-bottom:20px;
+	padding-left:5px;}
+.contenedor #five h6{font-size:14px;  text-align:left;  padding-bottom:2px;}
+.contenedor #ocho{display:block; width:100%;}
+.contenedor #pag_refer{width:98%;  height:50px;  margin-bottom:20px;	
+	background-color:transparent;  border-style:solid;
+	border-color:rgba(255,255,255, 0.7);}
+
+@media (min-width:480px){
+	
+#presupuesto .contenedor{margin-top:110px; display:block; text-align:left;}
+.contenedor #one{display:flex;  margin-top:10px;}
+.contenedor #nombre, #phone, #pais, #necesidad, #pag_refer{padding:10px;
+	margin-right:10px;}
+
+.contenedor #email, #ciudad, #url, #contenido, #boton_presup{padding:10px;}	
+.contenedor #two{display:flex;}
+.contenedor #three{display:flex;}	
+.contenedor #four{display:block;  padding-bottom:5px;  padding-top:10px;
+	padding-right:5px;  width:50%;}
+.contenedor #five{display:block;  padding-bottom:5px;  padding-top:10px;
+	padding-left:5px;  width:50%;}
+.contenedor #six{display:flex;  width:100%;}
+.contenedor #check{padding-left:15px;  width:50%;}
+.contenedor #check2{padding-left:15px;  width:50%;}		
+.contenedor #seven{display:flex;  width:100%;}
+.contenedor #ocho{display:flex;  width:100%;}
+.contenedor #pag_refer{width:50%;  height:50px;  margin-bottom:20px;	
+	background-color:transparent;  border-style:solid;
+	border-color:rgba(255,255,255, 0.7);}

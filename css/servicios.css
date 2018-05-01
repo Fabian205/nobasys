@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+/********s e r v i c i o s************/
+*{margin:0; padding:0;}
+#servicios {
+	width:100%;  background: rgba(220,220,220,0.8);  text-align: center;}
+#servicios .contenedor {
+	width:100%; display: flex;
+    flex-wrap: wrap;  justify-content: center;
+}
+.info-servicios{	
+    margin: 15px 5px;		
+}
+.info-servicios #desasoft4,
+.info-servicios #desasoft5,
+.info-servicios #desasoft6,
+.info-servicios #desasoft7{
+	width:100%;	 height: 100%;  border-radius:5px;  color: rgba(54,54,54, 0.9);
+	font-size:12px;  text-align:left;  margin:10px 0;  padding:15px 0;
+    border-radius: 5px;    
+}
+.info-servicios #desasoft4 li,
+.info-servicios #desasoft5 li,
+.info-servicios #desasoft6 li,
+.info-servicios #desasoft7 li{	
+	margin-left:15px;
+	color:rgba(54,54,54, 0.9);
+}
+.info-servicios #desasoft4 h3,
+.info-servicios #desasoft5 h3,
+.info-servicios #desasoft6 h3,
+.info-servicios #desasoft7 h3{
+	text-align:left;  margin-bottom:10px;
+	font-size:22px; font-weight:bold;
+}
+.info-servicios #desasoft4 a,
+.info-servicios #desasoft5 a,
+.info-servicios #desasoft6 a,
+.info-servicios #desasoft7 a{
+	width:100px;  font-size:14px;
+	padding:5px;  border-radius:5px;	
+}	
+.text{font-size:12;  color:#7E6D1D; text-decoration:none}
+#text{font-size:12;  color:#7E6D1D; text-decoration:none}
+#text1{font-size:12;  color:#7E6D1D; text-decoration:none}
+#text2{font-size:12;  color:#7E6D1D; text-decoration:none}
+#text3{font-size:12;  color:#7E6D1D; text-decoration:none}
+.text:hover{color:#ce5505; text-decoration:none}
+#text:hover{color:rgba(54,54,54, 0.9); text-decoration:none}
+#text1:hover{color:rgba(54,54,54, 0.9); text-decoration:none}
+#text2:hover{color:#ce5505; text-decoration:none}
+#text3:hover{color:#ce5505; text-decoration:none}
+	
+@media(min-width:576px){
+  .info-servicios{	
+  margin: 15px 60px;		
+  }
+  .info-servicios #desasoft a{		
+  font-size:16px;		
+  }
+.info-servicios #desasoft4,
+.info-servicios #desasoft5,
+.info-servicios #desasoft6,
+.info-servicios #desasoft7{
+	font-size:18px;      
+ }
+}

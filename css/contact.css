@@ -1,0 +1,51 @@
+@charset "utf-8";
+/*******CONTACT CSS*****/
+#contact{width:100%;  height:auto;  margin:auto;}
+#map{width:100%;  height: 200px;}
+.contact_us{background-image:url(../images/contact-bg.jpg);	
+	display:flex;  margin:auto;  margin-bottom:20px;
+		justify-content:center;  flex-wrap:wrap;  height:auto; 	
+			padding-bottom: 80px; 	background-size: cover;
+				background-repeat: no-repeat;  background-position: center;
+					background-attachment: fixed;}
+.contact_us #datos{display:block;  margin-bottom:20px;  height:auto;}
+.contact_us #datos article{width:100%;  text-align:left;  margin:0;
+	padding:15px;}
+.contact_us #datos aside{width:100%;  text-align:center;
+	margin:0;  padding:15px;}
+.contact_us aside h13{color:#FFF;  font-size:25px;  text-align:center;}
+.contact_us aside p{display:block;  margin:20px auto;
+	color:#FFF;  font-size:18px;  text-align:justify;}
+.contact_us #noba_contac h1{margin:15px auto;  text-align:center;
+	font-weight:bold;  padding-top: 10px;
+		font-family:Verdana, Geneva, sans-serif;  font-size:25px;	
+			color:rgba(206,85,5,0.9);}
+.contact_us #noba_contac h3{font-size:20px;	text-align:center;
+	font-weight:bold;  color:#FFF;}
+.contact_us li{margin-left:10px;  padding-top:10px;  font-size:18px;
+	text-align:justify;	color:rgba(255,255,255, 0.8);}
+.form-control {width:100%;  height:50px;  margin-bottom:20px;
+	background-color: transparent;  color:#FFF;
+		border-color: rgba(255,255,255, 0.5);  height: 50px;  border-radius: 5px;
+			border-style:solid;  box-shadow: none;  padding-left:10px;}
+.contact_us article #mensaje{height:150px;}
+.contact_us #boton2{margin:0 auto;  margin-bottom:20px;  border-radius:5px;
+	text-align:center;  font-weight:bold;  width:100%;
+		height:50px;  font-size:14px;  background:#ce5505;
+			border-style:none;}
+.contact_us #boton2:hover{background: rgba(54,54,54, 0.9);  color: #ce5505;
+	font-size:18px;}
+@media (min-width:345px){
+#map{height: 250px;}
+}
+@media (min-width:530px){
+.contact_us #datos{display:flex;}
+#map{height: 300px;}
+.contact_us #noba_contac h2{font-size:35px;}
+.contact_us #noba_contac h3{font-size:30px;}	
+}
+@media (min-width:850px){
+#map{height: 400px;}
+.contact_us #noba_contac h2{margin:30px auto;  font-size:40px;}
+.contact_us #noba_contac h3{font-size:30px;}
+}

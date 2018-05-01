@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+#icon-menu{display:none;}
+header label{float:right;  font-size:28px;  margin: 20px 0;  cursor:pointer;}
+.menu ul{margin-left:0;  padding-left:8px;  list-style:none;}
+.menu ul ul{display:none;  margin:0;}
+.menu{position:absolute;  top:60px;  left:0;  width:100%;
+	height:100vh;	background: rgba(54,54,54,0.9);
+	transition:all 0.5s;  transform:translateX(-100%);}
+.menu a{display:block;  color: #fff;  height:50px;  text-decoration:none;	
+	margin:0;  padding: 15px;  border-bottom: 1px solid rgba(255,255,255,0.3);}
+.menu a:hover{background: rgba(255,255,255,0.3);  color: #FF4500;
+	font-size: 18px;}
+.menu a span{margin-left:5px;}
+.menu ul li:hover ul{display:block;  background:#333;  color:#fff;
+	border-bottom: 1px solid #333;  position:absolute;}
+#icon-menu:checked ~ .menu{transform:translateX(0%);}
+
+@media (min-width:1000px) {
+.menu{position: static;  width: auto;  height: auto;  background:#363636;
+	transform: translateX(0%);  float: right; margin-top:25px;}	
+.menu ul{display:flex;}	
+.menu a{border: none;  color: #fff;}		
+header label{display: none;}		
+.menu a:hover{background: #363636;  color: #FF4500;  font-size: 18px;}	
+}

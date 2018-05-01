@@ -1,0 +1,46 @@
+@charset "utf-8";
+/*******CONTENEDORES CSS***Para todos los contenedores*/
+.contenedor{width:98%;  margin:auto;}
+.contenedor article{text-align:center;  padding-bottom:10px;}
+.contenedor #nombre, #email, #phone, #ciudad, #pais, #url{width:100%;
+	height:50px;  border-radius:5px;  margin-bottom:20px;	
+		background-color:transparent;  border-style:solid;	
+		border-color:rgba(255,255,255, 0.7);}
+.contenedor #necesidad, #contenido{width:100%;	height:50px;
+	border-radius:5px;  margin-bottom:20px;	 color:#666;
+		background-color:transparent;  border-style:solid;
+			border-color:rgba(255,255,255, 0.7);}
+.contenedor #mensaje{width:100%;  height:200px;  margin-bottom:20px;	
+	background-color:transparent;  border-style:solid;
+		border-radius:5px;  border-color:rgba(255,255,255, 0.7);}
+.contenedor #boton{text-align:center;  border-radius:5px;
+	font-weight:bold;  width:80%;  height:50px;  font-size:12px;
+		border-style:none;	background:#ce5505;}
+.contenedor #boton:hover{background: rgba(54,54,54, 0.9);
+	color: #ce5505;  font-size:14px;}
+.contenedor #boton1{text-align:center;  border-radius:5px;  font-weight:bold;	
+	width:80%;  height:50px;  font-size:12px;
+		border-style:none;	background:#ce5505;}
+.contenedor #boton1:hover{background: rgba(54,54,54, 0.9);
+	color: #ce5505;  font-size:14px;}
+.contenedor #boton_presup{text-align:center;  border-radius:5px;
+	font-weight:bold;  width:50%;  height:50px;  font-size:12px;
+	border-style:none;	background:#ce5505;}
+.contenedor #boton_presup:hover{
+	background: rgba(54,54,54, 0.9);  color: #ce5505;  font-size:14px;}
+.contenedor aside{padding-top:38px;  text-align:center;}
+.contenedor aside p{padding-top:58px; font-size:20px; text-align:justify;}
+
+@media(min-width:480px){
+.contenedor article{width:46%;	margin-right:10px;  text-align:center;}
+.contenedor aside{width:46%; margin-left:10px; text-align:center;}
+.contenedor #boton-presup{font-size:16px;}
+.contenedor #boton-presup:hover{font-size:18px;}	
+}
+@media (min-width:756px){
+.contenedor #boton{font-size:16px;}
+.contenedor #boton:hover{font-size:18px;}
+}
+@media (min-width:1024px) {
+.contenedor{width: 1000px;}
+}
